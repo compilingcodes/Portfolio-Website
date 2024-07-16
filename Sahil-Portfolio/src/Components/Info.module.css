@@ -1,0 +1,13 @@
+.info{
+  display: flex;
+  flex-direction: column;
+  gap: 0.1vw;
+}
+.info h4{
+color: beige;
+font-weight: 900;
+}
+.info h1{
+color: rgb(198, 198, 54);
+font-weight: 900;
+}

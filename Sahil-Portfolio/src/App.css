@@ -1,0 +1,24 @@
+#root{
+  margin: 0px;
+  padding: 0px;
+  background: linear-gradient(#000000 44%, #344f80);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+justify-content: center;
+align-items: center;
+  z-index: 1;
+}
+
+#box{
+  width: 90vw;
+  height: 87vh;
+  background-color:#20242D;
+  z-index: 9;
+  display: flex;
+  flex-direction: column;
+
+  border-radius: 15px;
+}
+
+
