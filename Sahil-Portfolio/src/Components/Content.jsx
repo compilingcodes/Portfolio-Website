@@ -10,6 +10,7 @@ const Content=()=>{
 
 
   </div>
+  
   </>
 
 }

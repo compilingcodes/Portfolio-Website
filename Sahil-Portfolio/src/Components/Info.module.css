@@ -1,9 +1,25 @@
 .info{
+
   display: flex;
-  flex-direction: column;
-  gap: 0.1vw;
+ gap: 0.1vw;
+
 }
-.info h4{
+.info .TextContainer{
+  width: 50%;
+  height: 100%;
+  line-height: 1.5vw;
+}
+.info .TextContainer p{
+ color: white;
+}
+
+.info .ImageContainer{
+ height: 100%;
+  width: 50%;
+}
+
+
+.info h3{
 color: beige;
 font-weight: 900;
 }
@@ -11,3 +27,57 @@ font-weight: 900;
 color: rgb(198, 198, 54);
 font-weight: 900;
 }
+
+.info .TextContainer .social {
+
+display: flex;
+
+margin-top: 2vw;
+gap: 1.2vw;
+
+
+}
+
+.info .TextContainer .social a{
+  width: 3.5vw;
+  height: 3.5vw;
+background: transparent;
+color: #344f80;
+border: 2px solid #344f80;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+color: white;
+transition: .5s ease;
+}
+
+.info .TextContainer .social a:hover{
+background-color: azure; 
+
+}
+.info .TextContainer .btn{
+margin-top: 2vw;
+font-size: 1.5vw;
+
+
+}
+
+.info .TextContainer .btn .icon{
+color: black;
+background-color: #517ccc;
+font-size: .5 rem;
+width: 12vw;
+height: 3vw;
+padding-top: .9vw;
+transition: all ease-in 0.2s;
+}
+
+.info .TextContainer .btn .icon:hover{
+color: black;
+background-color: #cbcb50;
+
+}
+
+
+

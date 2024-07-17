@@ -1,10 +1,10 @@
 .main{
   width: 80vw;
   height: 60vh;
-  background-color: aqua;
+  /* background-color: aqua; */
   display: flex;
   flex-direction: column;
   margin: auto;
   margin-top: 0px;
-  /* z-index: 10; */
+  
 }
