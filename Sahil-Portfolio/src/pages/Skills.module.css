@@ -1,0 +1,18 @@
+
+.navi{
+  display:flex ;
+  justify-content: space-between;
+  padding: 2vw 5vw;
+  
+  }
+  
+  nav h5{
+    color: white;
+  }
+  
+  .navi ul li a{
+    color: white;
+  }
+  .navi ul li a:hover{
+    color: #344f80;
+  }

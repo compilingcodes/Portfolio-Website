@@ -1,12 +1,11 @@
-
+import React from 'react'
 import { Link } from "react-router-dom";
-import styles from "./Navbar.module.css";
+import styles from "./Skills.module.css"
 
-const Navbar=()=>{
-
-  return <>
-
-  <nav className={styles.navi}>
+function Skills() {
+  return (
+    <div>
+    <nav className={styles.navi}>
 
 <h5>Portfolio.</h5>
 
@@ -28,9 +27,8 @@ const Navbar=()=>{
 </ul>
 
   </nav>
-
-  </>
-
+    </div>
+  )
 }
 
-export default Navbar;
+export default Skills

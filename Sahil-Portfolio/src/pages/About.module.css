@@ -1,0 +1,79 @@
+.AboutMain{
+width: 100vw;
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+.navi{
+  width: 100%;
+  display:flex ;
+  justify-content: space-between;
+  padding: 2vw 5vw;
+  
+  }
+  
+  nav h5{
+    color: white;
+  }
+  
+  .navi ul li a{
+    color: white;
+  }
+  .navi ul li a:hover{
+    color: #344f80;
+  }
+
+  .AboutContainer{
+    width: 90vw;
+    height:87vh;
+    background-color:#20242D ;
+    border-radius: 15px;
+    }
+
+    .AboutContainer  .AboutContent{
+width: 100%;
+height: 65vh;
+/* background-color: blanchedalmond; */
+display: flex;
+
+    }
+
+  .AboutContainer  .AboutContent .ImageContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    width: 50%;
+    }
+
+ 
+    .AboutContainer  .AboutContent  .ImageContainer img{
+    height:280px;
+    width: 280px;
+    }
+    
+
+  .AboutContainer  .AboutContent .TextContainer{
+color: white;
+padding-top: 1vw;
+    }
+  .AboutContainer  .AboutContent .TextContainer h1{
+    font-weight: 900;
+
+    }
+  .AboutContainer  .AboutContent .TextContainer h3{
+    color: rgb(198, 198, 54);
+    font-weight: 900;
+    }
+
+  .AboutContainer  .AboutContent .TextContainer p{
+ line-height: 1.5vw;
+ margin-top: 2vw;
+    }
+ 

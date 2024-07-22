@@ -60,7 +60,6 @@ background-color: azure;
 margin-top: 2vw;
 font-size: 1.5vw;
 
-
 }
 
 .info .TextContainer .btn .icon{
@@ -77,6 +76,18 @@ transition: all ease-in 0.2s;
 color: black;
 background-color: #cbcb50;
 
+}
+
+.info .ImageContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 8vw;
+  }
+
+.info .ImageContainer img{
+height:280px;
+width: 280px;
 }
 
 

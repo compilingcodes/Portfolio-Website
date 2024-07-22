@@ -1,5 +1,6 @@
 import styles from "./Info.module.css"
 import 'boxicons'
+import logo from "./ok.jpg"
 
 const Info=()=>{
 
@@ -32,7 +33,7 @@ const Info=()=>{
 </div>
 
 <div className={styles.ImageContainer}>
-<h3>wdgaivda</h3>
+{/* <img src={logo} alt="" /> */}
 </div>
 
 </div>

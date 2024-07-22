@@ -1,0 +1,107 @@
+.ContactMain{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  }
+  
+  .navi{
+    width: 100%;
+    display:flex ;
+    justify-content: space-between;
+    padding: 2vw 5vw;
+    
+    }
+    
+    nav h5{
+      color: white;
+    }
+    
+    .navi ul li a{
+      color: white;
+    }
+    .navi ul li a:hover{
+      color: #344f80;
+    }
+  
+
+
+    .ContactContainer{
+      width: 90vw;
+      height:87vh;
+      background-color:#20242D ;
+      border-radius: 15px;
+      }
+
+
+
+      .FormContainer{
+        width: 90vw;
+        height: 60vh;
+        /* background-color: aqua; */
+display: flex;
+justify-content: center;
+/* flex-direction: column; */
+
+
+      }
+
+      .FormContainer .InputBox{
+      display: flex;
+  
+    margin: 1vw;
+    justify-content: space-between;
+    gap: 1.5vw;
+    
+      }
+      .FormContainer .InputBox input{
+    background-color: #1a1e2c;
+    
+    font-size: 13px;
+    border-radius: 3px;
+    padding:4px;
+color: azure;
+    width: 20vw;
+    height: 6vh;
+      }
+
+      .FormContainer .SendText textarea{
+    background-color: #1a1e2c;
+    color: azure;
+    width: 41.5vw;
+    font-size: 13px;
+    border-radius: 3px;
+    padding:10px;
+resize: none;
+margin-left:1vw;
+      }
+     
+      
+      .FormContainer .btn{
+  margin-left: 15vw;
+  margin-top: 1.5vw;
+        font-size: 1.5vw;
+        
+        }
+
+      .FormContainer .btn .icon{
+        color: black;
+        background-color: #517ccc;
+        font-size: .5 rem;
+        width: 12vw;
+        height: 3vw;
+        padding-top: .9vw;
+        transition: all ease-in 0.2s;
+        }
+        
+        .FormContainer .btn .icon:hover{
+        color: black;
+        background-color: #cbcb50;
+        
+        }
+        
