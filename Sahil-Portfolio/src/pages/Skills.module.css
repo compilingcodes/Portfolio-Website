@@ -1,18 +1,120 @@
+.SkillsMain {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
 
-.navi{
-  display:flex ;
+.navi {
+  width: 100%;
+  display: flex;
   justify-content: space-between;
   padding: 2vw 5vw;
-  
-  }
-  
-  nav h5{
-    color: white;
-  }
-  
-  .navi ul li a{
-    color: white;
-  }
-  .navi ul li a:hover{
-    color: #344f80;
-  }
+
+}
+
+nav h5 {
+  color: white;
+}
+
+.navi ul li a {
+  color: white;
+}
+
+.navi ul li a:hover {
+  color: #344f80;
+}
+
+
+
+
+.SkillsContainer {
+  width: 90vw;
+  height: 87vh;
+  background-color: #20242D;
+  border-radius: 15px;
+}
+
+
+
+.LogoContainer {
+  width: 90vw;
+  height: 60vh;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2vw;
+
+}
+
+.LogoContainer .FirstRow {
+  width: 100%;
+  display: flex;
+  gap: 8vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.LogoContainer .SecondRow {
+  width: 100%;
+  display: flex;
+  gap: 8vw;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.LogoContainer .FirstRow .my {
+  width: 120px;
+  height: 120px;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+}
+
+.LogoContainer .FirstRow .u {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(19, 101, 177);
+  position: absolute;
+  z-index: 2;
+  opacity: .5;
+  display: none;
+
+}
+
+
+.LogoContainer .FirstRow img {
+  width: 120px;
+  height: 120px;
+ border-radius: 20px;
+
+  z-index: 1;
+}
+
+.LogoContainer .FirstRow .my:hover .u {
+  display: block;
+
+}
+
+
+
+
+.LogoContainer .SecondRow img {
+  width: 120px;
+  height: 120px;
+  color: white;
+}

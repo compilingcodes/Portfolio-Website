@@ -34,7 +34,7 @@ function Contact() {
     
   <div className={styles.FormContainer}>
 
-<form action="#">
+<form action="save.php" method='post'>
 
 <div className={styles.InputBox}>
  <input type="text" id='Fname' placeholder='Enter Full Name'/>

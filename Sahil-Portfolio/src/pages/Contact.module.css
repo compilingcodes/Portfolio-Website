@@ -46,7 +46,7 @@
         /* background-color: aqua; */
 display: flex;
 justify-content: center;
-/* flex-direction: column; */
+
 
 
       }
@@ -59,31 +59,40 @@ justify-content: center;
     gap: 1.5vw;
     
       }
+
       .FormContainer .InputBox input{
-    background-color: #1a1e2c;
+    background-color: #0f1721;
     
     font-size: 13px;
     border-radius: 3px;
     padding:4px;
 color: azure;
-    width: 20vw;
+    width: 24vw;
     height: 6vh;
+      }
+      .FormContainer .InputBox input::placeholder{
+   color:rgb(177, 176, 176);
       }
 
       .FormContainer .SendText textarea{
     background-color: #1a1e2c;
-    color: azure;
-    width: 41.5vw;
-    font-size: 13px;
+  color: azure;
+    width: 50vw;
+    font-size: 14px;
     border-radius: 3px;
     padding:10px;
 resize: none;
 margin-left:1vw;
       }
+      .FormContainer .SendText textarea::placeholder{
+  
+  color: rgb(177, 176, 176);
+
+      }
      
       
       .FormContainer .btn{
-  margin-left: 15vw;
+  margin-left: 19.5vw;
   margin-top: 1.5vw;
         font-size: 1.5vw;
         

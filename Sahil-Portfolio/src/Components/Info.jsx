@@ -20,7 +20,7 @@ const Info=()=>{
 <div className={styles.social}>
 
   <a href="#"><box-icon type='logo' name='twitter'></box-icon></a>
-  <a href="#"><box-icon name='instagram-alt' type='logo' ></box-icon></a>
+  <a href="https://www.instagram.com/_sah_ill__?igsh=MzNlNGNkZWQ4Mg=="><box-icon name='instagram-alt' type='logo' ></box-icon></a>
   <a href="#"><box-icon type='logo' name='linkedin'></box-icon></a>
   <a href="#"><box-icon name='github' type='logo' ></box-icon></a>
 
