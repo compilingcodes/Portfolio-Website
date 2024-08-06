@@ -1,6 +1,6 @@
 import styles from "./Info.module.css"
 import 'boxicons'
-import logo from "./ok.jpg"
+import logo from "./coverimage.jpg"
 
 const Info=()=>{
 

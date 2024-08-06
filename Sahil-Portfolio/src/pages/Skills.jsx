@@ -35,7 +35,7 @@ function Skills() {
     
   <div className={styles.LogoContainer}>
 
-<div className={styles.FirstRow}>
+<div className={styles.Row}>
 
 <div className={styles.my}>
   <div className={styles.u}></div>
@@ -59,18 +59,28 @@ function Skills() {
 
 </div>
 
-<div className={styles.SecondRow}>
+<div className={styles.Row}>
 
 
+<div className={styles.my}>
+  <div className={styles.u}></div>
   <img src={logo} alt="" />
+</div>
 
+<div className={styles.my}>
+  <div className={styles.u}></div>
   <img src={logo} alt="" />
+</div>
 
+<div className={styles.my}>
+  <div className={styles.u}></div>
   <img src={logo} alt="" />
+</div>
 
-<img src={logo} alt="" />
-
-
+<div className={styles.my}>
+  <div className={styles.u}></div>
+  <img src={logo} alt="" />
+</div>
 
 </div>
 
